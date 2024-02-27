@@ -26,9 +26,19 @@ final class ViewController: UIViewController {
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
+        showAnimetion()
+
         // Do any additional setup after loading the view.
     }
 
-
+    private func showAnimetion() {
+        let animetionView = LottieAnimationView(name: "animetion")
+        animetionView.frame = view.bounds
+        animetionView.contentMode = .scaleAspectFit
+        view.addSubview(animetionView)
+        animetionView.play()
+        print("追加できたぞ")
+    }
 }
+
 
