@@ -1,1 +1,3 @@
 # LottieAnimetion
+LottieFileを使ったアニメーション実装
+UICollectionViewの練習
